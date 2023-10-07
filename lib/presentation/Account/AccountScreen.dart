@@ -271,9 +271,10 @@ class _EditProfileState extends State<EditProfile> {
                           onPressed: () async{
                                _formKey.currentState?.save();
                              await context.read<AccountCubit>().updateProfile(name:nameFieldVal);
+                                                  ScaffoldMessenger.of(context)
+                  .showSnackBar(SnackBar(content: Text("Profile updated"))); 
                                Navigator.pop(context);
-                                       ScaffoldMessenger.of(context)
-                  .showSnackBar(SnackBar(content: Text("Profile updated")));    
+                       
                           },
                           child: const Padding(
                             padding: EdgeInsets.all(15.0),
