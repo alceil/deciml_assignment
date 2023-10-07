@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "282532356204",
+    "project_id": "deciml-test",
+    "storage_bucket": "deciml-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282532356204:android:ebb3e7198583e24b99b849",
+        "android_client_info": {
+          "package_name": "com.example.deciml_assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282532356204-ler03ai63sqh8v0bmgeki2v6g4u8nrdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiGqeBtXFwrMsrJvqeODVT3AOxD71aGx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282532356204-ler03ai63sqh8v0bmgeki2v6g4u8nrdm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
